@@ -1,0 +1,124 @@
+{
+    "Invoices": [
+        {
+            "ProductName": "Rum",
+            "Quantity": 12,
+            "ExtendedPrice": 95.0,
+            "ShipperName": "Spirits Inc.",
+            "ShippedDate": "2015-07-01T00:00:00",
+            "Status": "A"
+        },
+        {
+            "ProductName": "Whiskey",
+            "Quantity": 8,
+            "ExtendedPrice": 120.0,
+            "ShipperName": "Liquor World",
+            "ShippedDate": "2015-07-15T00:00:00",
+            "Status": "A"
+        },
+        {
+            "ProductName": "Vodka",
+            "Quantity": 10,
+            "ExtendedPrice": 100.0,
+            "ShipperName": "Beverage Depot",
+            "ShippedDate": "2015-08-05T00:00:00",
+            "Status": "A"
+        },
+        {
+            "ProductName": "Green Tea",
+            "Quantity": 6,
+            "ExtendedPrice": 15.0,
+            "ShipperName": "Tea Leaves Ltd.",
+            "ShippedDate": "2015-03-10T00:00:00",
+            "Status": "B"
+        },
+        {
+            "ProductName": "Soy Milk",
+            "Quantity": 5,
+            "ExtendedPrice": 13.5,
+            "ShipperName": "Nutritional Goods",
+            "ShippedDate": "2015-04-05T00:00:00",
+            "Status": "B"
+        },
+        {
+            "ProductName": "Orange Juice",
+            "Quantity": 7,
+            "ExtendedPrice": 21.0,
+            "ShipperName": "Fruit Fresh",
+            "ShippedDate": "2015-05-12T00:00:00",
+            "Status": "B"
+        },
+        {
+            "ProductName": "Canned Tomatoes",
+            "Quantity": 4,
+            "ExtendedPrice": 7.2,
+            "ShipperName": "ACME",
+            "ShippedDate": "2015-03-02T00:00:00",
+            "Status": "B"
+        },
+        {
+            "ProductName": "Kidney Beans",
+            "Quantity": 5,
+            "ExtendedPrice": 8.0,
+            "ShipperName": "ACME",
+            "ShippedDate": "2015-04-15T00:00:00",
+            "Status": "B"
+        },
+        {
+            "ProductName": "Chickpeas",
+            "Quantity": 6,
+            "ExtendedPrice": 9.0,
+            "ShipperName": "Organic Grocers",
+            "ShippedDate": "2015-05-22T00:00:00",
+            "Status": "C"
+        },
+        {
+            "ProductName": "Caesar Salad",
+            "Quantity": 3,
+            "ExtendedPrice": 12.0,
+            "ShipperName": "Healthy Eats",
+            "ShippedDate": "2015-06-01T00:00:00",
+            "Status": "C"
+        },
+        {
+            "ProductName": "Caprese Salad",
+            "Quantity": 2,
+            "ExtendedPrice": 10.5,
+            "ShipperName": "Gourmet Greens",
+            "ShippedDate": "2015-07-10T00:00:00",
+            "Status": "C"
+        },
+        {
+            "ProductName": "Fruit Salad",
+            "Quantity": 2,
+            "ExtendedPrice": 9.0,
+            "ShipperName": "Fresh Fruits Ltd.",
+            "ShippedDate": "2015-08-12T00:00:00",
+            "Status": "C"
+        },
+        {
+            "ProductName": "Whole Wheat Bread",
+            "Quantity": 2,
+            "ExtendedPrice": 5.4,
+            "ShipperName": "Baker's Delight",
+            "ShippedDate": "2015-03-05T00:00:00",
+            "Status": "B"
+        },
+        {
+            "ProductName": "Sourdough Bread",
+            "Quantity": 3,
+            "ExtendedPrice": 7.0,
+            "ShipperName": "Artisan Bakery",
+            "ShippedDate": "2015-04-20T00:00:00",
+            "Status": "A"
+        },
+        {
+            "ProductName": "Rye Bread",
+            "Quantity": 4,
+            "ExtendedPrice": 8.0,
+            "ShipperName": "Daily Bread Co.",
+            "ShippedDate": "2015-05-25T00:00:00",
+            "Status": "A"
+        }
+    ]
+}
