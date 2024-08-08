@@ -3,10 +3,9 @@
     "version": "1.0.0",
     "description": "O aplicativo de walkthrough UI5",
     "scripts": {
-      "start": "ui5 serve -o index.html"
+        "start": "ui5 serve -o test/mockServer.html"
     },
     "devDependencies": {
-      "@ui5/cli": "^4.0.3"
+        "@ui5/cli": "^4.0.3"
     }
-  }
-  
+}
