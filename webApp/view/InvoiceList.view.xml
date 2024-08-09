@@ -2,26 +2,23 @@
     controllerName="ui5.walkthrough.controller.InvoiceList"
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc">
-
     <List
         id="invoiceList"
-        headerText="{i18n>invoiceListTitle}"
         class="sapUiResponsiveMargin"
         width="auto"
         items="{
             path : 'invoice>/Invoices',
             sorter : {
                 path : 'ShipperName',
-                group : true
+                group : true 
             }
-        }">
-
+        }" >
         <headerToolbar>
             <Toolbar>
-                <Title text="{i18n>invoiceListTitle}" />
-                <ToolbarSpacer />
-                <SearchField
-                    width="50%"
+                <Title text="{i18n>invoiceListTitle}"/>
+                <ToolbarSpacer/>
+                <SearchField 
+                    width="50%" 
                     search=".onFilterInvoices"/>
             </Toolbar>
         </headerToolbar>
@@ -30,7 +27,7 @@
                 title="{invoice>Quantity} x {invoice>ProductName}"
                 number="{
                     parts: [
-                        'invoice>ExTendedPrice',
+                        'invoice>ExtendedPrice',
                         'view>/currency'
                     ],
                     type: 'sap.ui.model.type.Currency',
@@ -39,7 +36,9 @@
                     }
                 }"
                 numberUnit="{view>/currency}"
-                numberState="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }">
+                numberState="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }"
+                type="Navigation"
+                press=".onPress" >
                 <firstStatus>
                     <ObjectStatus
                         text="{
