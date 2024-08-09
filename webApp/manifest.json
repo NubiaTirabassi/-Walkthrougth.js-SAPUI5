@@ -77,10 +77,10 @@
           "name": "overview",
           "target": "overview"
         },
-        {
-          "pattern": "detail",
-          "name": "detail",
-          "target": "detail"
+          {
+            "pattern": "detail/{invoicePath}",
+            "name": "detail",
+            "target": "detail"
         }
       ],
       "targets": {
